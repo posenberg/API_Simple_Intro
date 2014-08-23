@@ -21,5 +21,5 @@ You will need your own codes like these (in the Settings Tab on the developer's 
   Uses the user_timeline() method to check on another user's twitter feed.  
   
 03_post_to_twitter.py  
-  Uses update_status() method.
+  Uses update_status() method.  
   Note: Make sure to change your application status on Twitter to Read-Write, otherwise you won't be able to post to your account.
