@@ -4,10 +4,10 @@ import tweepy
 #your app created on  https://apps.twitter.com/
 
 def run():
-	consumer_key = '538LEWAOqt8hAMgTdfqoY2J1b'
-	consumer_secret = 'xbSsONrS2mBhRn5ucU5XkKs6Mr4AK9FNKTsi07bDr4JJuEqHO5'
-	access_token = '787933-ZQ0ljPUD2hja9ENwHqmH63nmqwHYXfMWWujkBAonNiu'
-	access_token_secret = 'SfSeONIcOJ7DBuyOsoU5fN3NQTPqCYktC1bdwHWoLztR5'
+	consumer_key = 'xxxxxxxxxxxxxxxxxxx'
+	consumer_secret = 'xxxxxxxxxxxxxxxxxxx'
+	access_token = 'xxxxxxxxxxxxxxxxxxx'
+	access_token_secret = 'xxxxxxxxxxxxxxxxxxx'
 
 
 	auth = tweepy.OAuthHandler(
