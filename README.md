@@ -4,6 +4,9 @@ Very Simple Introductions to APIs using Twitter and Python.
 You will need to sign up for a developer account. If you have difficulty manuevering through the site, I have a set of visual instructions: [here](http://strangedata.ghost.io/2014/08/14/getting-started-with-twitter-api/)
 
 These files use the *tweepy* module.
+```language-python
+pip install tweepy
+```
 
 You will need your own codes like these (in the Settings Tab on the developer's website) to access the API from python:
 ![](http://strangedata.ghost.io/content/images/2014/Aug/Screenshot-2014-08-13-11-37-45.png)
