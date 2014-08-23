@@ -2,8 +2,7 @@ import tweepy
 
 import csv
 
-
-def monitor():
+def search_and_save():
 
 	#Fill in your keys, secrets, and tokens from your app created on  https://apps.twitter.com/
 	consumer_key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
@@ -34,4 +33,4 @@ def monitor():
 		print tweet.created_at, ' ',tweet.text.encode('utf-8')
 	csvFile.close()
 	
-monitor()
+search_and_save()
