@@ -1,9 +1,6 @@
 Very Simple Introductions to APIs using Twitter and Python.
 ===================
 
->My friend Mel showed me how to play with the API on the Twitter console, and then I took it from there writing my python scripts.
-
-
 You will need to sign up for a developer account. If you have difficulty manuevering through the site, I have a set of visual instructions: [here](http://strangedata.ghost.io/2014/08/14/getting-started-with-twitter-api/)
 
 These files use the *tweepy* module.
