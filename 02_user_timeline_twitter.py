@@ -11,7 +11,6 @@ def monitor():
 	access_token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 	access_token_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
-
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_token, access_token_secret)
 
@@ -25,8 +24,10 @@ def monitor():
                     count=10,
                     exclude_replies=True,
                     include_rts=False)
-
-	csvFile = open('result.csv', 'w')
+	
+	#Create a csv file that stores your time_line search results.
+	#Change "new_file.csv" if you want to save with differenting file name.
+	csvFile = open('new_file.csv', 'w')
 	csvWriter = csv.writer(csvFile)
 	for tweet in new_tweets:
 		csvWriter.writerow([tweet.text.encode('utf-8')])
