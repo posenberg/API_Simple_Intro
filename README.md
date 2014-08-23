@@ -21,6 +21,6 @@ Make sure to generate your own application codes as these will not work for you.
   This also includes a *csv* module to save your results to a csv file.  
   Uses the user_timeline() method to check on another user's twitter feed.  
   
-* **03_post_to_twitter.py**
+* **03_post_to_twitter.py**  
   Uses update_status() method.  
   Note: Make sure to change your application status on Twitter to Read-Write, otherwise you won't be able to post to your account.
